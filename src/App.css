@@ -7,3 +7,27 @@
 main{
     flex-grow: 1;
 }
+
+.list{
+    list-style-type: none;
+}
+
+.list li {
+    font-style: italic;
+}
+
+.main-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main-block img {
+    max-width: 250px;
+}
+
+.main-block a:hover{
+    scale: 110%;
+    transition: ease 1s;
+}
+
